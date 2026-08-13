@@ -71,3 +71,13 @@ ReLU
 Fully Connected Layer (128 → 10)
     ↓
 Output
+
+
+## Real-World Prediction Analysis
+
+The CNN was tested on 10 smartphone photographs. Some predictions were incorrect because the real-world images differ significantly from the FashionMNIST training images.
+
+FashionMNIST contains simple 28×28 grayscale images, while smartphone photographs contain backgrounds, lighting variations, colors, shadows, and additional visual noise.
+
+Therefore, the real-world prediction results demonstrate the limitation of applying a model trained on FashionMNIST directly to real-world photographs.
+
